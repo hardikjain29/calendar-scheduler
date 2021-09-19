@@ -1,0 +1,21 @@
+.time {
+  grid-column: 1;
+  text-align: right;
+  align-self: end;
+  font-size: 12px;
+  position: relative;
+  bottom: -6px;
+  color: #8f9ca9;
+  padding-right: 2px;
+}
+  
+.calendar-margin {
+  grid-row: 1/-1;
+  grid-column: 2;
+  border-right: 1px solid #dfe0e2;
+}
+  
+.slot {
+  grid-column: 2/-1;
+  border-bottom: 1px solid #dfe0e2;
+}

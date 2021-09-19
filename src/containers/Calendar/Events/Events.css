@@ -1,0 +1,24 @@
+.title {
+  background: #02a2ad;
+  text-align: center;
+  display: grid;
+  place-content: center;
+  color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.event {
+  grid-column: 3;
+  padding: 5px;
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 12px;
+  background-color: #02a2ad;
+  border-color: #02a2ad;
+}
+
+.colliding-event {
+  background-color: rgb(255, 96, 96);
+}

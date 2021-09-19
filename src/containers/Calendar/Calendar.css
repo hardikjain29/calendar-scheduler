@@ -1,0 +1,22 @@
+.calendar {
+  display: grid;
+  grid-template-columns: 3em 10px 1fr;
+  grid-template-rows: repeat(24, 3em);
+}
+
+.current-time {
+  grid-column: 3;
+  border-top: 2px solid #f13e2d;
+  position: relative;
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  border: 1px solid #f13e2d;
+  border-radius: 50%;
+  background: #f13e2d;
+  position: relative;
+  top: -7px;
+  left: -7px;
+}
